@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  .logo {
+    margin-top: 30px;
+   
+     }
+     button {
+        background-color: #eb2b63;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+       border-radius: 14px; 
+        cursor: pointer;
+        width: 100%;
+        border: none ;
+        line-height: 1;
+        font-size: 14px;
+        
+       
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+      .login{
+        margin-left: 100px;
+        margin-top: 30px;
+      }
+      header {
+        height: 400px;
+       
+        background-image: url(./img/hinhnen.webp);
+        background-size: 100% 500px;
+        
+        background-repeat: no-repeat;
+      }
+      header .bigheader {
+        display: flex;
+       justify-content: center;
+     }
+   
+     .navbar{
+       margin-top: 30px;
+    
+    
+     
+      }
+    
+      .navbar ul li {
+        display: inline-block;
+        
+        margin-left: 80px;
+        margin-top: 20px;
+        
+        
+       
+      }
+      .navbar ul li a {
+    color: white;
+    text-decoration: none ;
+    font-size: 16px;
+      }
+      .navbar ul li a:hover {
+        color: #eb2b63;
+        transition: all 0.4s;
+          }
+
+          .baochu{
+            max-width: 1175px;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 200px;
+            font-size: 50px
+          
+          }
+          .baochu h2 {
+              color: white;
+          
+          }
+          .baochu p{
+              color: white;
+             
+          }
+          .section{
+            text-align: center;
+            margin-top: 50px;
+            }
+            .section img{
+              
+                max-width: 100%;
+              vertical-align: middle;
+                  border-style: none;
+              }
+              .section p{
+                font-size: 12px;
+                font-weight: 500;
+                color: #8e8e8e;
+                line-height: normal;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+                margin-top: 0;
+              }
+              .section h2{
+                font-size: 48px;
+                font-weight: 700;
+              }
+              .row{
+                display: flex;
+              }
+              h3 {
+                font-size: 30px;
+              }
+              .about-text p {
+                margin-bottom: 40px;
+              }
+              p {
+                font-size: 14px;
+                color: #585858;
+                line-height: 2;
+                margin-top: 0;
+              }
+              .title{
+                text-align: center;
+                margin-top: 100px;
+              }
+              .Rocketmini img{
+              
+              }
+              .Textmini p{
+                font-size: 12px;
+                font-weight: 500;
+                color: #8e8e8e;
+                line-height: normal;
+                text-transform: uppercase;
+                  letter-spacing: 2px;
+                  margin-bottom: 5px;
+              }
+              .TextBigmini h2{
+                font-size: 48px;
+                  font-weight: 700;
+              }
+              .profile{
+                display: flex;
+                margin-top: 100px;
+                justify-content: center;
+
+              }        
+              .Thongtin{
+          
+                border: 2px solid rgb(233, 225, 225);
+                height: 55px;
+                border-radius: 12px;
+                margin-top: 100px;
+              }      
+              .Thongtin h2{
+                background-color: #f7efef;
+              } 
+              .Thongtin p{
+                background-color: #f7efef;
+                text-align: center;
+              } 
